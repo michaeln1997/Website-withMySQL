@@ -1,0 +1,24 @@
+<!-- 
+ Michael Nunes 				Principles of Database System 
+ Dr. Stephen Blythe        30500-21
+ Project #3				
+ createRecipe.html
+-->
+
+<!-- this html page get input from the user and send the data to some 
+ php file. Also, every input has a size of 50 -->
+
+ 
+<!-- header of the HTML page -->
+<h1> Create a recipe or add ingredient to a recipe </h1>
+
+<!--  sending data to createRecipe.php code from user input--> 
+<form action="createRecipe.php" method="post">
+
+Recipe Name: <input type=text name="recipe" size=50></input><br>
+Ingredient: <input type=text name="ingredient" size=50></input><br>
+Quantity <input type=text name="quantity" size=50></input><br>
+
+<input type=submit value="GO"></input>
+
+</form>
